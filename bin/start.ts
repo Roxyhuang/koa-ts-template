@@ -1,4 +1,4 @@
-import createServer from '../utils/createServer';
+import createServer from '../middleware/createServer';
 import { Server } from 'http'
 
 export = (async() => {
@@ -14,6 +14,3 @@ export = (async() => {
         process.exit(1)
     }
 })();
-
-
-
